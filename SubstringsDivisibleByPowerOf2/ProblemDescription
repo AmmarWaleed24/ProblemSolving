@@ -1,0 +1,15 @@
+#ProblemName: Substrings Divisible by Power of 2
+#ProblemLink: https://www.codewars.com/kata/6690ea58805ce76c529595b6/train/csharp
+#ProblemDescription: 
+Task
+You're given a string of decimal digits s and an integer p. Return an array where the value at index i corresponds to the number of contiguous substrings of s starting at index i which are divisible by 2^p in its number form.
+Example
+Input: "1048", 3
+
+Expected Output: [2,2,1,1]
+
+Substrings that are divisible by 2^3 = 8
+At index 0 (2 substrings) : 104, 1048
+At index 1 (2 substrings) : 0, 048
+At index 2 (1 substring)  : 48
+At index 3 (1 substring)  : 8
